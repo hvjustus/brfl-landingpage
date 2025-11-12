@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Brian Feller</title>
+</head>
+
+<body>
+    <main class="container-fluid vh-100 p-0 overflow-hidden">
+        <!-- mobile -->
+        <div class="d-block d-md-none h-100 position-relative">
+            <!-- fundo mobile -->
+            <div class="position-fixed top-0 start-0 w-100 h-100 bg-cover" style="z-index: 0;"></div>
+            <div class="position-fixed top-0 start-0 w-100 h-100 overlay" style="z-index: 1;"></div>
+
+            <!-- conteudo mobile -->
+            <div class="container-fluid text-white position-relative d-flex flex-column justify-content-between h-100"
+                style="z-index: 2;">
+                <!-- texto -->
+                <div class="pt-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="archivo-black display-1 mb-4 text-center">
+                                Brian Feller
+                            </h1>
+                            <h2 class="display-5 mb-3 text-center">
+                                Tá pronto pra dar o próximo passo?
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- botao wpp -->
+                <div class="pb-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex flex-column align-items-center gap-3">
+                                <h3 class="lead mb-0 text-center">
+                                    É só clicar 👇
+                                </h3>
+                                <a href="https://wa.me"
+                                    class="btn btn-custom text-white rounded-pill px-4 py-2 d-inline-flex align-items-center text-decoration-none">
+                                    <i class="fa-brands fa-whatsapp fa-lg me-2"></i>
+                                    <span>WhatsApp</span>
+                                </a>
+
+                                <!-- insta tiktok -->
+                                <div class="d-flex gap-3">
+                                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                                        class="text-white text-decoration-none social-icon">
+                                        <i class="fa-brands fa-instagram fa-2xl"></i>
+                                    </a>
+                                    <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer"
+                                        class="text-white text-decoration-none social-icon">
+                                        <i class="fa-brands fa-tiktok fa-2xl"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- desktop -->
+        <div class="d-none d-md-block h-100">
+            <div class="row g-0 h-100">
+                <!-- imagem desktop -->
+                <div class="col-lg-6 bg-cover"></div>
+
+                <!-- texto desktop -->
+                <div class="col-lg-6 d-flex align-items-center" style="background-color: #1a1a1a;">
+                    <div class="container-fluid text-white">
+                        <div class="row">
+                            <div class="col-12 col-lg-11 mx-auto">
+                                <!-- texto -->
+                                <div class="mb-4">
+                                    <h1 class="archivo-black display-1 fw-bold mb-4 text-start">
+                                        Brian Feller
+                                    </h1>
+                                    <h2 class="display-5 fw-bold mb-3 text-start">
+                                        Tá pronto pra dar o próximo passo?
+                                    </h2>
+                                    <h3 class="lead mb-0 text-start">
+                                        É só clicar 👇
+                                    </h3>
+                                </div>
+
+                                <!-- botao wpp -->
+                                <div class="d-flex align-items-center gap-3">
+                                    <a href="https://wa.me"
+                                        class="btn btn-custom text-white rounded-pill px-4 py-2 d-inline-flex align-items-center text-decoration-none">
+                                        <i class="fa-brands fa-whatsapp fa-lg me-2"></i>
+                                        <span>WhatsApp</span>
+                                    </a>
+
+                                    <!-- insta tiktok -->
+                                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                                        class="text-white text-decoration-none social-icon">
+                                        <i class="fa-brands fa-instagram fa-2xl"></i>
+                                    </a>
+                                    <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer"
+                                        class="text-white text-decoration-none social-icon">
+                                        <i class="fa-brands fa-tiktok fa-2xl"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

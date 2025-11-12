@@ -1,0 +1,41 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-cover {
+    background-image: url('../img/brian-feller-cover.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.archivo-black {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-shadow: 2px 2px 0.5rem rgba(255, 255, 255, 0.5);
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.btn-custom {
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: white;
+}
+
+.social-icon {
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
